@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Consulta" content="Consulta de algunos terminos que se requieren para el entendimiento de ciertas tematicas de la asignatura de programacion web">
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Consulta</title>
+</head>
+<body id= "fondo">
+    <header>
+        <h1>Consulta</h1>
+    </header>
+    <nav>
+        <a href="index.html">Volver al inicio</a>
+    </nav>
+    <section id= "seccion_centro">
+        <table>
+            <tr>
+                <td>
+                    <h2>1. ¿Qué es un servidor web?</h2>
+                    <article>
+                        <p>Es un software que hace parte de un servidor y su objetivo es devolver información a medida que va recibiendo peticiones de los usuarios.
+                            Algunos tipos de servidor web son los siguientes: HTTP Apache, Nginx, LiteSpeed, Microsoft IIS, Sun Java System Web Server.
+                            </p>
+                    </article>
+                </td>
+                <td>
+                    <h2>2. ¿Qué es un cliente web?</h2>
+                    <article>
+                        <p>Es un ordenador que se encuentra conectado a internet y se encarga de realizar peticiones de documentos incorporados en una página web y para visualizar dicho contenido se hace uso de un navegador web.</p>
+                    </article>
+                </td>
+                <td>
+                    <h2>3. ¿Qué son aplicaciones dinámicas sincrónicas y asincrónicas en la web?</h2>
+                    <article>
+                        <p><strong>Aplicaciones síncronas:</strong> Es una técnica que se enfoca en el envío de una trama de datos, estos se configuran en un bloque de información iniciando con un conjunto de bits al final del bloque, los bits de sincronismo tienen como tarea la sincronización de los relojes existentes, tanto del emisor como del receptor y por ende estos controlan los diferentes bits y caracteres.<br>
+                        <strong>Aplicaciones asíncronas:</strong> Esta técnica tiene lugar cuando el proceso de sincronización entre el emisor y receptor se realiza en cada palabra de código transmitido. También se establece cuando no se presenta una relación temporal entre el emisor y el receptor.
+                            </p>
+                    </article>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h2>4. ¿Qué tipo de tecnologías se requieren para realizar aplicaciones en tiempo real?</h2>
+                    <article>
+                        <p>Se hace uso de integración de bases de datos, conectadas por medio de API’s basadas en Node (MongoDB), una base de datos NoSQL. Otra posibilidad, que no es muy factible para la implementación en tiempo real es RethinkDB (consulta y recepción de datos de tipo JSON).</p>
+                    </article>
+                </td>
+                <td>
+                    <h2>5. ¿Cuáles son las aplicaciones típicas de las aplicaciones en tiempo real?</h2>
+                    <article>
+                        <p>API’s, MongoDB, bases de datos NoSQL, JS, diversos FrameWorks de JS.</p>
+                    </article>
+                </td>
+                <td>
+                    <h2>6. ¿Qué es un Websocket?</h2>
+                    <article>
+                        <p>Es una tecnología que permite abrir una sesión de comunicación interactiva entre el navegador del usuario y un servidor. Por medio de esta API, se posibilita el envío de mensajes a un servidor y recibir respuestas controladas por eventos sin necesidad de consultar al servidor para obtener una respuesta.</p>
+                    </article>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h2>7. ¿Cuáles son las aplicaciones de los Websocket?</h2>
+                    <article>
+                        <p>Esta tecnología basada en el protocolo ws, permite establecer una conexión full-duplex entre el cliente y el servidor; en este caso un cliente puede ser el navegador del usuario, pero el protocolo es una plataforma independiente.</p>
+                    </article>
+                </td>
+                <td>
+                    <h2>8. ¿Cuáles son las características del API Websocket?</h2>
+                    <article>
+                        <p>Los Websockets son implementados en HTML5 para la comunicación entre el cliente y el servidor.</p>
+                    </article>
+                </td>
+                <td>
+                    <h2>9. ¿Qué navegadores soportan Websocket y qué se entiende por FrontEnd y BackEnd?</h2>
+                    <article>
+                        <p>Chrome [v6, v14, v16], Firefox (Gecko) [V4.0 (2.0), v6.0 (6.0), v7.0 (7.0), v11.0 (11.0)], Opera [v11.00 (disabled), v12.10], Safari v5.0.1.<br><br>
+                            <strong>FrontEnd:</strong> Abarca las tecnologías de Desarrollo y diseño web que corren en un navegador y  permiten la interacción con los usuarios.<br>                            
+                        <strong>BackEnd:</strong> Es la capa a la cual los usuarios no pueden acceder directamente, ya que se compone de la lógica que administra los datos. Esta, posibilita el acceso al servidor y entiende la forma en la que navegador realiza solicitudes al servidor.
+                            </p>
+                    </article>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h2>10. ¿Qué son las PWA (Progressive Web Apps), Aplicaciones Web Progresivas? ¿Cuáles son sus ventajas y desventajas?</h2>
+                    <article>
+                        <p>Las PWA se basa en web tradicional, pero incluye particularidades que la hacen aparentar como una app nativa para teléfonos móviles y tabletas.<br><br>
+                            <strong>Ventajas:</strong><br>
+                            - No necesitan ingresar a Google Play o Apple Store para poder descargar algo, requiere de acceso a internet y un navegador web.<br>
+                            - Cualquier usuario puede instalarla en la pantalla de inicio de su dispositivo.<br>
+                            - El peso puede ser de menos de 1MB.<br>
+                        <strong>Desventajas:</strong><br>
+                            - Consume más batería de los dispositivos.<br>
+                            - Impide el acceso a todas las funcionalidades del dispositivo.
+                            </p>
+                    </article>
+                </td>
+                <td>
+                    <h2>11.	¿Cuáles son las tecnologías de las aplicaciones móviles nativas? ¿Qué son los services worker? ¿Cómo se implementa?</h2>
+                    <article>
+                        <p><strong>Aplicaciones nativas:</strong> Son aquellas que se desarrollan propiamente para cada uno de los sistemas operativos.<br>
+                        <strong>Services worker:</strong> Trabajan como proxy servers fijado entre las aplicaciones web, la red y el navegador. Estas permiten la creación de experiencias offline y permiten el acceso a notificaciones y la sincronización en segundo plano por medio de las API’s.
+                            </p>
+                    </article>
+                </td>
+                <td>
+                    <h2>12.	¿Qué herramientas se pueden utilizar para desarrollar aplicaciones tiempo real modernas que también funcione en los dispositivos móviles?</h2>
+                    <article>
+                        <p>Node JS, socket.</p>
+                    </article>
+                </td>
+            </tr>
+        </table>
+    </section>
+    
+</body>
+<footer class="footer" , class="pie_de_pagina">
+    <p>Elaborado por: Sebastián Vásquez González</p>
+</footer>
+</html>
